@@ -1,0 +1,28 @@
+.contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 12px;
+}
+.menu-wrapper{
+    display: flex;
+    gap: 12px;
+    margin-right: 16px;
+
+}
+.spacer{
+    height: 20px;
+    border: 1px solid black;
+}
+.title{
+    margin: 8px auto;
+}
+.link-header{
+    font-size: 20px;
+    cursor: pointer;
+}
+.link-header:hover{
+    color:rgb(6, 6, 135);
+    scale: 1.1;
+}
